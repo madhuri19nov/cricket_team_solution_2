@@ -89,9 +89,8 @@ app.put("/players/:playerId", async (request, response) => {
         cricket_team 
     SET 
         player_name= '${playerName}',
-       jersey_number= ${jerseyNumber},
-        role= '${role}' 
-    }
+        jersey_number= ${jerseyNumber},
+        role= '${role}'
     WHERE
         player_id= ${playerId};`;
 
